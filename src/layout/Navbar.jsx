@@ -5,8 +5,6 @@ import { useEffect, useEffectEvent, useState } from "react";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
 ];
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen ] = useState(false);
@@ -27,7 +25,7 @@ export const Navbar = () => {
       ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"}  z-50`}>
       <nav className="container mx-auto px-6 flex item-center justify-between">
         <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
-          HT<span className="text-primary">.</span>
+          Hana <span className="text-primary">.</span>
         </a>
         {/* Desktop navbar*/}
         <div className="hidden md:flex items-center gap-1">
