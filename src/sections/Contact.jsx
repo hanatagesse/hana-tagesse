@@ -15,13 +15,13 @@ const contactInfo = [
     icon: Mail,
     label: "Email",
     value: "Hanatagesse582@gmail.com",
-    href: "Hanatagesse582@gmail.com",
+    href: "mailto:Hanatagesse582@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "09-04-09-89-38",
-    href: "09-04-09-89-38",
+    value: "+251-90-409-8938",
+    href: "tel:+251-90-409-8938",
   },
   {
     icon: MapPin,
